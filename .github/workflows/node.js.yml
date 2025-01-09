@@ -28,6 +28,6 @@ jobs:
         cache: 'npm'
     - name: install dependencies, build and test
       run: |
-        npm run install
+        npm install
         npm run build-prod
         npm run test
